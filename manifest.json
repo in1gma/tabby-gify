@@ -1,0 +1,25 @@
+{
+	"name": "My new tab page with images",
+	"short_name": "Tabby gify",
+	"author": "in1gma",
+	"description": "My custom tab page with animated images",
+	"version": "0.1",
+	"incognito": "split",
+	"offline_enabled": true,
+	"chrome_url_overrides": {
+		"newtab": "html/newtab.html"
+	},
+	"manifest_version": 2,
+	"browser_action": {
+		"default_icon": {
+			"16": "icons/newtab_icon16.png",
+			"32": "icons/newtab_icon32.png"
+		}
+	},
+	"icons": {
+		"16": "icons/newtab_icon16.png",
+		"32": "icons/newtab_icon32.png",
+		"48": "icons/newtab_icon48.png",
+		"128": "icons/newtab_icon128.png"
+	}
+}
